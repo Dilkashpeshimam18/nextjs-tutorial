@@ -8,10 +8,13 @@ import Link
   from 'next/link'
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>This is home page</p>
-      <Link href='alldata'>All Data</Link>
-    </div>
+    <>
+      <div>
+        <h1>Home Page</h1>
+        <p>This is home page</p>
+        <Link href='alldata'>All Data</Link>
+      </div>
+    </>
+
   )
 }
