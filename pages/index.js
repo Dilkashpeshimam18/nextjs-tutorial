@@ -9,6 +9,9 @@ import Link
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Next Tutorial | Home </title>
+      </Head>
       <div>
         <h1>Home Page</h1>
         <p>This is home page</p>
